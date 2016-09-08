@@ -21,6 +21,7 @@ public class Info_ingame extends CoderCommand{
 			if (hasPermission(p) || p.isOp()&&args.length ==0) {
 				msg(p, PluginLoader.color("&aSeite 1/3 "));
 				msg(p, PluginLoader.color("&aName: AntiPlugin "));
+				msg(p, PluginLoader.color("&aVersion: 0.1 "));
 				msg(p, PluginLoader.color("&a1Autor: Minka_H "));
 				msg(p, PluginLoader.color("&a2Autor: Duck_c "));
 				
